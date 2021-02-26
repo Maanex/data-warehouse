@@ -1,0 +1,12 @@
+{
+  "namespace": {
+    "type": {
+      "dbname": "test",
+      "schema": {
+        "text": "string",
+        "toggle": "boolean",
+        "num": "number"
+      }
+    }
+  }
+}

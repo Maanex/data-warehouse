@@ -8,7 +8,7 @@ Requests go to `POST <server>/event/:namespace/:type`. Individual events are pla
 
 Event namespaces and types are defined in **src/data/event_structure.json**. You may define as many events as you like and use js primitives as types. Use the same names as your database uses. For a database template visit **sql/create.sql**.
 
-Authorization is not set up yet, yet every request required the precense of a 'Authorization' header. To add validation checks for said header, go to **/src/server.ts** to implement one.
+Although authorization is not set up yet, every request still requires the pure presence of an 'Authorization' header. To add validation checks for said header, go to **/src/server.ts** to implement one.
 
 ## Setup
 
